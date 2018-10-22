@@ -39,3 +39,7 @@ Bonus: Calculate total, and also as a percentage
 #### Step 7
 
 Visualisation code for pie chart using Flask framework
+
+#### Step 8
+
+Add HTML list to page

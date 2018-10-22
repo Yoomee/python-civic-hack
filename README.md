@@ -35,3 +35,7 @@ Only process Restaurants, cafes and canteens
 
 Display the total of all the ratings.
 Bonus: Calculate total, and also as a percentage
+
+#### Step 7
+
+Visualisation code for pie chart using Flask framework

@@ -9,9 +9,7 @@ for n in list:
     business = n.getElementsByTagName("BusinessName")[0].firstChild.data
     rating = n.getElementsByTagName("RatingValue")[0].firstChild.data
 
-    if n.getElementsByTagName("RatingDate")[0].firstChild:
-      date = n.getElementsByTagName("RatingDate")[0].firstChild.data
-    else:
-      date = "none"
 
-    print ("%s rated %s on %s" % (business, rating, date))
+    date = "none"
+
+    print ("%s was rated %s on %s" % (business, rating, date))

@@ -10,4 +10,4 @@ for n in list:
     rating = n.getElementsByTagName("RatingValue")[0].firstChild.data
     date = n.getElementsByTagName("RatingDate")[0].firstChild.data
 
-    print ("%s rated %s on %s" % (business, rating, date))
+    print ("%s was rated %s on %s" % (business, rating, date))

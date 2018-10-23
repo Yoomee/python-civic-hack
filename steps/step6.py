@@ -13,11 +13,10 @@ no_rating = 0
 for n in list:
   type = n.getElementsByTagName("BusinessType")[0].firstChild.data
 
-  if type == "Restaurant/Cafe/Canteen":
+  if type == "Restaurant/Cafe/Canteen" and n.getElementsByTagName("RatingDate")[0].firstChild:
       business = n.getElementsByTagName("BusinessName")[0].firstChild.data
       rating = n.getElementsByTagName("RatingValue")[0].firstChild.data
-      if n.getElementsByTagName("RatingDate")[0].firstChild:
-          date = n.getElementsByTagName("RatingDate")[0].firstChild.data
+      date = n.getElementsByTagName("RatingDate")[0].firstChild.data
 
       # Increment counters
       if rating == "1":

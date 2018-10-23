@@ -25,11 +25,11 @@ Get zero rated establishments only.
 
 #### Step 4
 
-Get and display date for the business. Includes condition for when there is no date field.
+Only process Restaurants, cafes and canteens
 
 #### Step 5
 
-Only process Restaurants, cafes and canteens
+Get and display date for the business. Includes condition for when there is no date field.
 
 #### Step 6
 
